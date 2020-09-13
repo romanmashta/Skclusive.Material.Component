@@ -27,6 +27,9 @@ namespace Skclusive.Material.Text
         /// </summary>
         [Parameter]
         public string Type { set; get; }
+        
+        [Parameter]
+        public int Rows { set; get; }        
 
         /// <summary>
         /// If <c>true</c>, the input will take up the full width of its container.
