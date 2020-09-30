@@ -29,7 +29,9 @@
       @onchange="HandleChangeAsync"
       @onfocus="HandleFocusAsync"
       @onblur="HandleBlurAsync"
-      @oninput="HandleInputAsync" />
+      @oninput="HandleInputAsync" 
+      @onkeydown="HandleKeyDownAsync"
+      />
       @EndAdornment
       @RenderSuffix?.Invoke(_Notched)
 </Component>
