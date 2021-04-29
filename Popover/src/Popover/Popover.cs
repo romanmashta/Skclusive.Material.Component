@@ -492,10 +492,10 @@ namespace Skclusive.Material.Popover
                     left -= diff;
                     horizontal += diff;
                 }
-
-                styles.Add("top", $"{top}px");
-                styles.Add("left", $"{left}px");
-                styles.Add("transform-origin", $"{horizontal}px {vertical}px");
+                
+                styles.Add("top", $"{(int)top}px");
+                styles.Add("left", $"{(int)left}px");
+                styles.Add("transform-origin", $"{(int)horizontal}px {(int)vertical}px");
             }
 
             return styles;
