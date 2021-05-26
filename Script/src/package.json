@@ -9,7 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "rollup": "^1.26.3",
     "rollup-plugin-node-resolve": "^5.2.0",
