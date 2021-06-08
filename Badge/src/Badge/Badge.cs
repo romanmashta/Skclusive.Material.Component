@@ -71,7 +71,7 @@ namespace Skclusive.Material.Badge
         /// Max count to show.
         /// </summary>
         [Parameter]
-        public int Max { set; get; } = 999;
+        public int Max { set; get; } = 9999;
 
         /// <summary>
         /// The <see cref="Skclusive.Core.Component.Color" /> of the component. It supports those theme colors that make sense for this component.
